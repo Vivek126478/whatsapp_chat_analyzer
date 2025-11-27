@@ -1,10 +1,6 @@
-# Streamlit UI
 streamlit==1.35.0
-
-# Data manipulation & core analysis
 pandas==2.2.3
-# Use a numpy version that has wheels for Python 3.13
-numpy==2.3.5
+numpy==1.26.4
 matplotlib==3.8.4
 wordcloud==1.9.3
 emoji==2.11.0
@@ -12,17 +8,13 @@ networkx==3.3
 urlextract==1.8.0
 regex==2023.8.8
 
-# NLP
 nltk==3.8.1
 textblob==0.17.1
 spacy==3.6.1
-# SpaCy small English model wheel (keeps as URL)
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.6.0/en_core_web_sm-3.6.0-py3-none-any.whl
 NRCLex==3.0.0
 
-# ML / Topic modeling
 gensim==4.3.2
 scikit-learn==1.5.0
 
-# Progress bars
 tqdm==4.65.0
